@@ -1,0 +1,123 @@
+.content {
+    background: url('https://firebasestorage.googleapis.com/v0/b/wtf-shouldwe.appspot.com/o/clt.jpg?alt=media&token=89575b2c-2f73-43a3-a0dc-43e457c9e776');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .top {
+    background: rgba(12, 84, 96, .3);
+    color: white;
+    font-weight: bold;
+  }
+  
+  .option {
+    height: 33.3%;
+    font-size: 10vh;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .v-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .wtf-font {
+    font-family: 'Dosis';
+    font-size: 100px;
+  }
+  
+  .row {
+    margin: 0 !important;
+  }
+  
+  .eat {
+    background: linear-gradient(to right, rgba(0, 150, 136, .7) 50%, rgba(76, 175, 80, .7) 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all .5s ease;
+  }
+  
+  .eat:hover {
+    background-position: right bottom;
+    transition: all .5s ease;
+  }
+  
+  .eat-bk {
+    background: url('https://firebasestorage.googleapis.com/v0/b/wtf-shouldwe.appspot.com/o/food.jpg?alt=media&token=f9d04493-1455-4b08-b276-7e7d91aecc49');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .watch {
+    background: linear-gradient(to right, rgba(63, 81, 181, .7) 50%, rgba(76, 175, 80, .7) 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all .5s ease;
+  }
+  
+  .watch:hover {
+    background-position: right bottom;
+    transition: all .5s ease;
+  }
+  
+  .watch-bk {
+    background: url('https://firebasestorage.googleapis.com/v0/b/wtf-shouldwe.appspot.com/o/watch.jpg?alt=media&token=04c86d8c-7338-4bcd-9878-4bd4d95aaa1a');
+    background-position: top;
+    background-size: cover;
+  }
+  
+  .do {
+    background: linear-gradient(to right, rgba(233, 30, 99, .6) 50%, rgba(76, 175, 80, .5) 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all .5s ease;
+  }
+  
+  .do:hover {
+    background-position: right bottom;
+    transition: all .5s ease;
+  }
+  
+  .do-bk {
+    background: url('https://firebasestorage.googleapis.com/v0/b/wtf-shouldwe.appspot.com/o/do.jpg?alt=media&token=3de2ab79-1524-4d90-9c5e-1b60b1077cb2');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .selection-text {
+    height: 90%;
+  }
+  
+  .reset-text {
+    height: 10%;
+    font-size: 16px;
+  }
+  
+  .no-padding {
+    padding: 0 !important;
+  }
+  
+  .selected {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: #4CAF50;
+    transition: all .5s ease;
+  }
+  
+  @media(max-width: 1580px) {
+    .wtf-font {
+      font-size: 100px;
+    }
+  }
+  
+  @media(max-width: 980px) {
+    .wtf-font {
+      font-size: 50px;
+    }
+  }

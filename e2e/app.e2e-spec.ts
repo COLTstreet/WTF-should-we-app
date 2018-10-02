@@ -1,6 +1,6 @@
 import { NgPwaPage } from './app.po';
 
-describe('ng-pwa App', () => {
+describe('wtf-should-we App', () => {
   let page: NgPwaPage;
 
   beforeEach(() => {
